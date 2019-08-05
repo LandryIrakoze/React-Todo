@@ -5,9 +5,8 @@ class TodoForm extends React.Component {
         super();
         this.state = {
             item: ""
-        }
-        
-        console.log('form props', this.props)
+        }   
+        // console.log('form props', this.props)
     }
 
     handleChanges = event => {
@@ -24,7 +23,6 @@ class TodoForm extends React.Component {
     render() {
         return (
             <>
-            {/* {console.log('form props', this.props)} */}
                 <form onSubmit={this.submitItem}>
                     <input 
                         type="text"

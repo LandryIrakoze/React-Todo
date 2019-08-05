@@ -5,8 +5,8 @@ import Todo from './Todo';
 
 const TodoList = (props) => {
 
-    console.log('todolist props', props.items.list);
-    console.log('props', props);
+    // console.log('todolist props', props.items.list);
+    // console.log('props', props);
 
     return (
         <>
